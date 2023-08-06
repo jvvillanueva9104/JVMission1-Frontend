@@ -1,0 +1,28 @@
+.turnerNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  background-color: rgb(36, 35, 35);
+}
+
+.turnerLogo {
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+  font-weight: bold;
+}

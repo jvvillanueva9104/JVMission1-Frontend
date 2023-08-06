@@ -1,0 +1,53 @@
+.CVMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.CVContainer {
+  height: 40rem;
+  width: 40rem;
+  /* background-color: white; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.CVForm {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  width: 20rem;
+  background-color: #fff;
+  justify-content: space-around;
+  padding: 2rem;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  margin-right: 10px;
+}
+
+.CVBtn {
+  width: fit-content;
+  padding: 0.5rem 1.25rem;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.CVBtn:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+input {
+  padding: 10px;
+}
