@@ -16,7 +16,7 @@ const CVContents = () => {
           <label>Cars Model:</label>
           <input type="text" placeholder="e.g Civic, Axela, Note" />
 
-          <label htmlFor="">Model Year:</label>
+          <label>Model Year:</label>
           <input type="text" placeholder="e.g 2012" />
 
           <button className="CVBtn">Check</button>
