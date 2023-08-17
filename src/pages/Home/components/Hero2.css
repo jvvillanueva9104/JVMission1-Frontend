@@ -1,0 +1,34 @@
+.hero2Container {
+  width: 100%;
+  height: 30rem;
+  /* background: linear-gradient(45deg, #000000, #aeaeae); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./cool-background.svg");
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.hero2TextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 70rem;
+  padding: 0 10rem;
+  color: black;
+  align-self: flex-start;
+  transform: scaleX(-1);
+}
+
+.hero2TextContainer h1 {
+  color: black;
+  font-size: 10rem;
+}
+
+.hero2CarImg {
+  width: 40rem;
+  height: 70%;
+  margin-right: 2rem;
+}

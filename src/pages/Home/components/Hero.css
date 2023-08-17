@@ -1,33 +1,106 @@
-.heroImage {
-  width: 100vw;
-  height: 70vh;
-  object-fit: cover;
-  filter: grayscale(100%);
+.heroSection {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  /* background: linear-gradient(45deg, #000000, #aeaeae); */
+  padding: 0 20rem;
+  display: flex;
+  background-size: 200% 100%;
+  animation: gradientAnimation 10s linear infinite;
+  background-image: url("./cool-background.svg");
+  background-size: cover;
 }
 
-.heroSection {
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.heroText {
+  color: white;
+  transform: translateY(18rem);
+  font-size: 1.5rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heroText h1,
+h3 {
+  color: black;
+}
+
+.heroBtn {
+  width: 14rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.199);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border: black solid 1px;
+}
+
+.heroBtn:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.rightContent {
+  transform: translateY(15rem);
+  color: white;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.threeDivs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.heroDivs {
+  width: 555px;
+  height: 105.333px;
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 1.5rem;
   position: relative;
 }
 
-.heroText1,
-.heroText2,
-.heroText3 {
-  position: absolute;
-  left: 75rem;
-  font-size: 4rem;
+.heroDivBtns {
+  background-color: black;
   color: white;
-  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-  letter-spacing: 0.3rem;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 1rem;
+  left: 28.4rem;
 }
 
-.heroText1 {
-  top: 14rem;
-}
-
-.heroText2 {
-  top: 20rem;
-}
-
-.heroText3 {
-  top: 26rem;
+.heroBtmDiv {
+  height: 5rem;
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  top: 50.8rem;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+  font-weight: bold;
 }

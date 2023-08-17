@@ -3,6 +3,17 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
+}
+
+.CVHeader {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .CVContainer {
@@ -19,16 +30,29 @@
   flex-direction: column;
   height: 20rem;
   width: 20rem;
-  background-color: #fff;
-  justify-content: space-around;
-  padding: 2rem;
-  border-radius: 10px;
+  gap: 10px;
+  /* background-color: #fff; */
+  /* justify-content: space-around; */
+  /* padding: 2rem; */
+  /* border-radius: 10px; */
   align-items: center;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 3rem;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); */
 }
 
 label {
   margin-right: 10px;
+}
+
+.CVBtnContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.nextPage {
+  text-decoration: none;
+  color: black;
 }
 
 .CVBtn {
@@ -48,6 +72,23 @@ label {
   transition: all 0.3s ease-in-out;
 }
 
-input {
-  padding: 10px;
+.CVInput {
+  padding: 2rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.valueResult {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.CVError {
+  color: darkred;
 }

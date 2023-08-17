@@ -1,0 +1,83 @@
+.quoteMainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.quoteForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.quoteForm input {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: none;
+  height: 4rem;
+}
+
+.quoteBtn {
+  background-color: white;
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.quoteBtn:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s all ease-in-out;
+}
+
+.premiumResults {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.premiumCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 20rem;
+  /* background-color: #0073cf; */
+  background-color: black;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0 0.5rem;
+  text-align: center;
+  gap: 2rem;
+  height: 24rem;
+}
+
+.quoteHeader {
+  font-size: 3rem;
+}
+
+.quotePrice {
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: #0073cf;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.8);
+}
+
+.quoteTopHeader {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.errorText {
+  margin-top: 20px;
+  color: darkred;
+}
